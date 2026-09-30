@@ -8,6 +8,9 @@ export type ReviewCard = {
   phonetic: string | null;
   part_of_speech: string | null;
   note: string | null;
+
+  word_language: string | null;
+
   state: string;
   difficulty: number;
   stability: number;

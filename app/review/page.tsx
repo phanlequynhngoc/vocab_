@@ -4,7 +4,8 @@ import { requireUser } from "@/lib/auth";
 import type { ReviewCard } from "@/lib/srs";
 import { ReviewClient } from "./review-client";
 
-const fields = "id,word,meaning,example,phonetic,part_of_speech,note,state,difficulty,stability,last_review,next_review,review_count,lapse_count";
+const fields =
+  "id,word,meaning,example,phonetic,part_of_speech,note,word_language,state,difficulty,stability,last_review,next_review,review_count,lapse_count";
 
 export default async function ReviewPage({
   searchParams,
